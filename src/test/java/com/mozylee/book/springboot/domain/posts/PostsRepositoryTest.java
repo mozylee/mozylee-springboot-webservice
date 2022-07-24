@@ -51,6 +51,7 @@ class PostsRepositoryTest {
         postsRepository.save(Posts.builder()
                 .title("TEST")
                 .content("TEST")
+                .author("author")
                 .build());
 
         //when
